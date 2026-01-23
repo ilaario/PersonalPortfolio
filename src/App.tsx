@@ -1,6 +1,7 @@
 import { HeroSection } from './sections/Hero'
 import { ProjectsSection } from './sections/Projects'
 import { TimelineSection } from './sections/Timeline'
+import { UdsDemoSection } from './sections/UdsDemo'
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <HeroSection />
           <ProjectsSection />
           <TimelineSection />
+          <UdsDemoSection />
         </main>
 
         <footer className="py-10 text-xs text-slate-600">
