@@ -12,15 +12,15 @@ export const projectsQuery = `
 
 export const timelineQuery = `
   *[_type == "timelineItem"] 
-  | order(coalesce(order, 9999) asc, startDate desc) {
+  | order(coalesce(order, 9999) asc, startMonth desc) {
     _id,
     title,
     subtitle,
     organisation,
     location,
     kind,
-    startDate,
-    endDate,
+    startMonth,
+    endMonth,
     isCurrent,
     description
   }
